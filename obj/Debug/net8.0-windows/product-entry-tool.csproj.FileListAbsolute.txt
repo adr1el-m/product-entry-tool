@@ -1,0 +1,14 @@
+C:\Users\adriel magalona\Desktop\product-entry-tool\bin\Debug\net8.0-windows\product-entry-tool.exe
+C:\Users\adriel magalona\Desktop\product-entry-tool\bin\Debug\net8.0-windows\product-entry-tool.deps.json
+C:\Users\adriel magalona\Desktop\product-entry-tool\bin\Debug\net8.0-windows\product-entry-tool.runtimeconfig.json
+C:\Users\adriel magalona\Desktop\product-entry-tool\bin\Debug\net8.0-windows\product-entry-tool.dll
+C:\Users\adriel magalona\Desktop\product-entry-tool\bin\Debug\net8.0-windows\product-entry-tool.pdb
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.AssemblyInfoInputs.cache
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.AssemblyInfo.cs
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.csproj.CoreCompileInputs.cache
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.dll
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\refint\product-entry-tool.dll
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.pdb
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.genruntimeconfig.cache
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\ref\product-entry-tool.dll
