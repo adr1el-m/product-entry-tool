@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("product-entry-tool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b575c86808dd56a07a912c8223d749559f1cdf5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65d5805a478e937dca39087edd37e8fe46907dcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("product-entry-tool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("product-entry-tool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

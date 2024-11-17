@@ -1,6 +1,8 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using OfficeOpenXml;
+using System.IO;
 
 namespace product_entry_tool
 {
@@ -81,8 +83,32 @@ namespace product_entry_tool
             string instructions = instructionsTextBox.Text;
             int shopNumber = (int)shopNumberDropdown.SelectedItem;
 
-            MessageBox.Show($"Product: {productName}\nVersion: {versionNumber}\nURL: {url}\nInstructions: {instructions}\nShop: {shopNumber}",
-                            "Entry Added", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string filePath = @"C:\Users\adriel magalona\Desktop\example.xlsx";
+
+            if (File.Exists(filePath))
+            {
+                using (ExcelPackage package = new ExcelPackage(new FileInfo(filePath)))
+                {
+                    var worksheet = package.Workbook.Worksheets[0];
+
+                    int row = worksheet.Dimension.End.Row + 1;
+
+                    worksheet.Cells[row, 1].Value = productName;
+                    worksheet.Cells[row, 2].Value = versionNumber;
+                    worksheet.Cells[row, 3].Value = url;
+                    worksheet.Cells[row, 4].Value = instructions;
+                    worksheet.Cells[row, 5].Value = shopNumber;
+
+                    package.Save();
+                }
+
+                MessageBox.Show("Data added to Excel file successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Excel file not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
     }
 }
