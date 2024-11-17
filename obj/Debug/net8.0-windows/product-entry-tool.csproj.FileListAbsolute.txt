@@ -12,3 +12,4 @@ C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\ref
 C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.pdb
 C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.genruntimeconfig.cache
 C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\ref\product-entry-tool.dll
+C:\Users\adriel magalona\Desktop\product-entry-tool\obj\Debug\net8.0-windows\product-entry-tool.sourcelink.json
