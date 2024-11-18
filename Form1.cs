@@ -81,34 +81,52 @@ namespace product_entry_tool
             string versionNumber = versionNumberTextBox.Text;
             string url = urlTextBox.Text;
             string instructions = instructionsTextBox.Text;
+
+            if (shopNumberDropdown.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a shop number.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             int shopNumber = (int)shopNumberDropdown.SelectedItem;
 
-            string filePath = @"C:\Users\adriel magalona\Desktop\example.xlsx";
+            string filePath = @"C:\Users\<YourUsername>\Desktop\YourExcelFile.xlsx";
 
-            if (File.Exists(filePath))
-            {
-                using (ExcelPackage package = new ExcelPackage(new FileInfo(filePath)))
-                {
-                    var worksheet = package.Workbook.Worksheets[0];
-
-                    int row = worksheet.Dimension.End.Row + 1;
-
-                    worksheet.Cells[row, 1].Value = productName;
-                    worksheet.Cells[row, 2].Value = versionNumber;
-                    worksheet.Cells[row, 3].Value = url;
-                    worksheet.Cells[row, 4].Value = instructions;
-                    worksheet.Cells[row, 5].Value = shopNumber;
-
-                    package.Save();
-                }
-
-                MessageBox.Show("Data added to Excel file successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
+            if (!File.Exists(filePath))
             {
                 MessageBox.Show("Excel file not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
+
+            using (ExcelPackage package = new ExcelPackage(new FileInfo(filePath)))
+            {
+                if (package.Workbook.Worksheets.Count == 0)
+                {
+                    MessageBox.Show("The workbook has no worksheets.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                var worksheet = package.Workbook.Worksheets[0];
+
+                if (worksheet.Dimension == null)
+                {
+                    MessageBox.Show("The worksheet is empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                int row = worksheet.Dimension.End.Row + 1;
+
+                worksheet.Cells[row, 1].Value = productName;
+                worksheet.Cells[row, 2].Value = versionNumber;
+                worksheet.Cells[row, 3].Value = url;
+                worksheet.Cells[row, 4].Value = instructions;
+                worksheet.Cells[row, 5].Value = shopNumber;
+
+                package.Save();
+            }
+
+            MessageBox.Show("Data added to Excel file successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
 
     }
 }
