@@ -1,0 +1,15 @@
+C:\Users\adriel magalona\Desktop\ProductEntryTool\bin\Release\net8.0-windows\ProductEntryTool.exe
+C:\Users\adriel magalona\Desktop\ProductEntryTool\bin\Release\net8.0-windows\ProductEntryTool.deps.json
+C:\Users\adriel magalona\Desktop\ProductEntryTool\bin\Release\net8.0-windows\ProductEntryTool.runtimeconfig.json
+C:\Users\adriel magalona\Desktop\ProductEntryTool\bin\Release\net8.0-windows\ProductEntryTool.dll
+C:\Users\adriel magalona\Desktop\ProductEntryTool\bin\Release\net8.0-windows\ProductEntryTool.pdb
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.AssemblyInfoInputs.cache
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.AssemblyInfo.cs
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.csproj.CoreCompileInputs.cache
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.sourcelink.json
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.dll
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\refint\ProductEntryTool.dll
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.pdb
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ProductEntryTool.genruntimeconfig.cache
+C:\Users\adriel magalona\Desktop\ProductEntryTool\obj\Release\net8.0-windows\ref\ProductEntryTool.dll
